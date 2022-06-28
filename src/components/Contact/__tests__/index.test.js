@@ -19,6 +19,6 @@ describe('render contact form', () => {
 
     it('renders h1', () => {
         const { getByTestId } = render(<Contact />)
-        expect(getByTestId('header1')).toHaveTextContent('Contact')
+        expect(getByTestId('header1')).toHaveTextContent('Contactuu')
     })
 })
